@@ -1,0 +1,6 @@
+function varargout = ...
+    is_direct_method(class_name, method_name)
+% [tf, defining_class_name, method_] = ...
+%     is_direct_method(class_name, method_name)
+
+[varargout{1:nargout}] = is_method(class_name, method_name, true);
